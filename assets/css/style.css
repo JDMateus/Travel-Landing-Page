@@ -279,11 +279,17 @@ section {
 }
 
 @media (max-width: 576px) {
+  .home .content {
+    margin-top: 0px;
+  }
   .home .content h1 {
     font-size: 2.5em;
     line-height: 60px;
   }
   section {
     padding: 100px 5px;
+  }
+  .slider-navigation {
+    top: 90%;
   }
 }
